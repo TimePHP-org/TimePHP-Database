@@ -1,0 +1,13 @@
+{
+    "name": "timephp/database",
+    "description": "Database support for TimePHP",
+    "require": {
+        "illuminate/database": "^8.6",
+        "illuminate/events": "^8.6"
+    },
+    "autoload": {
+        "psr-4":{
+            "TimePHP\\": "src/"
+        }
+    }
+}
