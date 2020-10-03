@@ -3,7 +3,8 @@
     "description": "Database support for TimePHP",
     "require": {
         "illuminate/database": "^8.6",
-        "illuminate/events": "^8.6"
+        "illuminate/events": "^8.6",
+        "ramsey/uuid": "^4.1"
     },
     "autoload": {
         "psr-4":{
