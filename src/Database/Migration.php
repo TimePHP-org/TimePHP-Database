@@ -4,7 +4,7 @@ namespace TimePHP\Database;
 
 require __DIR__ . "/../../../../autoload.php";
 
-use TimePHP\Database\Migration\MigrationInterface;
+use TimePHP\Database\MigrationInterface;
 use Illuminate\Container\Container;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Illuminate\Events\Dispatcher;
