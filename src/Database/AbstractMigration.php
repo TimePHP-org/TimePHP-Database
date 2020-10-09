@@ -10,7 +10,7 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 use Illuminate\Events\Dispatcher;
 use Symfony\Component\Dotenv\Dotenv;
 
-abstract class Migration implements MigrationInterface {
+abstract class AbstractMigration implements MigrationInterface {
    /**
     * Dotenv variable
     *
