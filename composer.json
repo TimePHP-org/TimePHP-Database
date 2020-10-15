@@ -23,7 +23,8 @@
     "require": {
         "illuminate/database": "^8.6",
         "illuminate/events": "^8.6",
-        "ramsey/uuid": "^4.1"
+        "ramsey/uuid": "^4.1",
+        "illuminate/pagination": "^8.10"
     },
     "autoload": {
         "psr-4":{
