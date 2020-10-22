@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4aed58019c25dbd838eac613c7acc7e",
+    "content-hash": "e4c49a216217c677731ae841543895ae",
     "packages": [
         {
             "name": "brick/math",
@@ -200,16 +200,16 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v8.10.0",
+            "version": "v8.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "4189cfde0b935b488e7f9b87f36bbef996da42a1"
+                "reference": "2b1dfd52c05bb98bf9630eda948cb39aa8c89487"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/4189cfde0b935b488e7f9b87f36bbef996da42a1",
-                "reference": "4189cfde0b935b488e7f9b87f36bbef996da42a1",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/2b1dfd52c05bb98bf9630eda948cb39aa8c89487",
+                "reference": "2b1dfd52c05bb98bf9630eda948cb39aa8c89487",
                 "shasum": ""
             },
             "require": {
@@ -246,7 +246,7 @@
             ],
             "description": "The Illuminate Collections package.",
             "homepage": "https://laravel.com",
-            "time": "2020-10-12T14:24:15+00:00"
+            "time": "2020-10-19T14:08:41+00:00"
         },
         {
             "name": "illuminate/container",
@@ -297,7 +297,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v8.10.0",
+            "version": "v8.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -456,16 +456,16 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v8.10.0",
+            "version": "v8.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
-                "reference": "561442f134eaf4d3f710bf523ecfe1537fa53f64"
+                "reference": "3182b39bac376cf3791a94f4c397897a46b85fcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/macroable/zipball/561442f134eaf4d3f710bf523ecfe1537fa53f64",
-                "reference": "561442f134eaf4d3f710bf523ecfe1537fa53f64",
+                "url": "https://api.github.com/repos/illuminate/macroable/zipball/3182b39bac376cf3791a94f4c397897a46b85fcd",
+                "reference": "3182b39bac376cf3791a94f4c397897a46b85fcd",
                 "shasum": ""
             },
             "require": {
@@ -494,53 +494,7 @@
             ],
             "description": "The Illuminate Macroable package.",
             "homepage": "https://laravel.com",
-            "time": "2020-06-08T14:13:16+00:00"
-        },
-        {
-            "name": "illuminate/pagination",
-            "version": "v8.10.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/illuminate/pagination.git",
-                "reference": "61d2b0082ca10f74a74f99f47e7277175fb44a96"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/pagination/zipball/61d2b0082ca10f74a74f99f47e7277175fb44a96",
-                "reference": "61d2b0082ca10f74a74f99f47e7277175fb44a96",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "illuminate/collections": "^8.0",
-                "illuminate/contracts": "^8.0",
-                "illuminate/support": "^8.0",
-                "php": "^7.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "8.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Illuminate\\Pagination\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "The Illuminate Pagination package.",
-            "homepage": "https://laravel.com",
-            "time": "2020-10-07T19:58:27+00:00"
+            "time": "2020-10-19T14:08:41+00:00"
         },
         {
             "name": "illuminate/pipeline",
@@ -588,16 +542,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v8.10.0",
+            "version": "v8.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "ebdebedc68722938f23fa46f329fb6840ab9d2ea"
+                "reference": "52fa3552b996746e48bd539bc80877151c8503b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/ebdebedc68722938f23fa46f329fb6840ab9d2ea",
-                "reference": "ebdebedc68722938f23fa46f329fb6840ab9d2ea",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/52fa3552b996746e48bd539bc80877151c8503b1",
+                "reference": "52fa3552b996746e48bd539bc80877151c8503b1",
                 "shasum": ""
             },
             "require": {
@@ -607,7 +561,7 @@
                 "illuminate/collections": "^8.0",
                 "illuminate/contracts": "^8.0",
                 "illuminate/macroable": "^8.0",
-                "nesbot/carbon": "^2.17",
+                "nesbot/carbon": "^2.31",
                 "php": "^7.3",
                 "voku/portable-ascii": "^1.4.8"
             },
@@ -647,20 +601,20 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2020-10-12T17:58:15+00:00"
+            "time": "2020-10-20T20:12:11+00:00"
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.41.3",
+            "version": "2.41.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "e148788eeae9b9b7b87996520358b86faad37b52"
+                "reference": "6571aec754a648ef476a8d8f57993f7bc965afe4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e148788eeae9b9b7b87996520358b86faad37b52",
-                "reference": "e148788eeae9b9b7b87996520358b86faad37b52",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/6571aec754a648ef476a8d8f57993f7bc965afe4",
+                "reference": "6571aec754a648ef476a8d8f57993f7bc965afe4",
                 "shasum": ""
             },
             "require": {
@@ -736,7 +690,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-12T20:36:09+00:00"
+            "time": "2020-10-22T07:28:05+00:00"
         },
         {
             "name": "psr/container",
